@@ -5,7 +5,7 @@ const game = new PIXI.Application({
 });
 document.getElementById("game").append(game.view);
 loadAssets([{ name: "front", url: "assets/car1.png" }], start);
-//------------------------------
+//------------------------------________
 const pBar = document.getElementById("bar");
 const pText = document.getElementById("progress");
 function preload(e) {
