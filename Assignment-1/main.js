@@ -7,6 +7,7 @@ document.getElementById("game").append(game.view);
 loadAssets([{ name: "front", url: "assets/car1.png" }], start);
 //------------------------------________
 const pBar = document.getElementById("bar");
+// fdghjkl
 const pText = document.getElementById("progress");
 function preload(e) {
   console.log(e.progress);
